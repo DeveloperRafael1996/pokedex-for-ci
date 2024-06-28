@@ -1,0 +1,15 @@
+name: Say Start
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    star:
+        runs-on: ubuntu-18.04
+        steps:
+          - name: Echo Of Message
+            run: |
+                echo "Start DevOps"
+
