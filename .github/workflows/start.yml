@@ -1,4 +1,4 @@
-name: Say Start
+name: Say Hello
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
       - main
 
 jobs:
-    star:
+    hello_word:
         runs-on: ubuntu-18.04
         steps:
-          - name: Echo Of Message
+          - name: Echo the message
             run: |
-                echo "Start DevOps"
+                echo "Hola Rafael Guevara Aller"
 
